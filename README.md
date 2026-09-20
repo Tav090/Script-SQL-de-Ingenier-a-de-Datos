@@ -29,7 +29,7 @@ El modelo de datos se diseñó bajo una arquitectura de tipo estrella para garan
 
 ## 🚀 Instrucciones para la Implementación de la Base de Datos
 
-### ⚠️ Importante: Orden de Ejecución Obligatorio
+### ⚠️Mucho muuuy Importante: Orden de Ejecución Obligatorio
 Debido a las restricciones de integridad referencial y claves foráneas (`FOREIGN KEY`), los scripts de SQL Server deben ejecutarse en el siguiente orden estricto para evitar errores de compilación:
 
 1.  **Creación de la base de datos e inicialización.**
@@ -42,7 +42,7 @@ Debido a las restricciones de integridad referencial y claves foráneas (`FOREIG
 
 ---
 
-## 📊 Librería de Medidas Core (DAX)
+## 📊 Librería de Medidas (DAX)
 El modelo analítico cuenta con un contenedor dedicado exclusivamente a métricas lógicas bajo la tabla `_Medidas`, las cuales eliminan la redundancia y optimizan el rendimiento del motor *VertiPaq*:
 
 1.  **`Total Ventas`:** `SUM(Fact_Ventas[total_venta])` - Base de recaudación monetaria.
@@ -54,4 +54,4 @@ El modelo analítico cuenta con un contenedor dedicado exclusivamente a métrica
 ---
 
 ## 👥 Autor 
-*   **Gustavo Dias:** 
+*   **Gustavo Dias** 
